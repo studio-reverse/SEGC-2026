@@ -22,7 +22,7 @@ protected:
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
 private:
-	void HandleShape(const FShapeResult& Result);
+	void HandleStroke(const FStrokeResult& Result);
 
 	TSharedPtr<SStrokeCanvas> Canvas;
 };
